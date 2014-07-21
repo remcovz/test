@@ -1,0 +1,30 @@
+Git new branch:
+
+$ mkdir testtest
+
+$ cd testtest
+
+$ echo "New branch created locally, pushed to remote." >> README.md
+
+$ git init
+Initialized empty Git repository in /home/user/testtest/.git/
+
+$ git add README.md
+
+$ git commit -m "First commit"
+[master (root-commit) c405908] First commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+
+$ git remote add origin git@github.com:remcovz/test.git
+
+$ git branch -M master testtest
+
+$ git push -u origin testtest
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 261 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:remcovz/test.git
+ * [new branch]      testtest -> testtest
+Branch testtest set up to track remote branch testtest from origin.
+

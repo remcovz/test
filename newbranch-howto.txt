@@ -28,3 +28,22 @@ To git@github.com:remcovz/test.git
  * [new branch]      testtest -> testtest
 Branch testtest set up to track remote branch testtest from origin.
 
+$ git add newbranch-howto.txt
+
+$ git commit newbranch-howto.txt -m "A how-to on how to create a clean
+branch without forking it from master branch."
+[testtest ff7b158] A how-to on how to create a clean branch without forking
+it from master branch.
+ 1 file changed, 30 insertions(+)
+ create mode 100644 newbranch-howto.txt
+
+$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 721 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To git@github.com:remcovz/test.git
+   c405908..ff7b158  testtest -> testtest
+
+$

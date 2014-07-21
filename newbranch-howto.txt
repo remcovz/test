@@ -30,10 +30,8 @@ Branch testtest set up to track remote branch testtest from origin.
 
 $ git add newbranch-howto.txt
 
-$ git commit newbranch-howto.txt -m "A how-to on how to create a clean
-branch without forking it from master branch."
-[testtest ff7b158] A how-to on how to create a clean branch without forking
-it from master branch.
+$ git commit newbranch-howto.txt -m "A how-to on how to create a clean branch without forking it from master branch."
+[testtest ff7b158] A how-to on how to create a clean branch without forking it from master branch.
  1 file changed, 30 insertions(+)
  create mode 100644 newbranch-howto.txt
 

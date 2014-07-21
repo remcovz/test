@@ -1,5 +1,24 @@
 Git new branch:
 
+In short:
+
+mkdir testtest
+cd testtest
+echo "New branch created locally, pushed to remote." >> README.md
+git init
+git add README.md
+git commit -m "First commit"
+git remote add origin git@github.com:remcovz/test.git
+git branch -M master testtest
+git push -u origin testtest
+
+git add newbranch-howto.txt
+git commit newbranch-howto.txt -m "A how-to on how to create a clean branch without forking it from master branch."
+git push
+
+
+Long story:
+
 $ mkdir testtest
 
 $ cd testtest
@@ -43,5 +62,3 @@ Writing objects: 100% (3/3), 721 bytes, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To git@github.com:remcovz/test.git
    c405908..ff7b158  testtest -> testtest
-
-$

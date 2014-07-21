@@ -1,4 +1,4 @@
-Git new branch:
+Git new branch how-to:
 
 $ mkdir testtest
 
@@ -43,5 +43,3 @@ Writing objects: 100% (3/3), 721 bytes, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To git@github.com:remcovz/test.git
    c405908..ff7b158  testtest -> testtest
-
-$
